@@ -1,0 +1,57 @@
+@import '../variables.scss';
+
+.home-wrapper {
+    display:flex;
+    justify-content: space-between;
+    .left-menu {
+        ul {
+            padding-left:0;
+            li {
+                list-style-type: none;
+                font-family:$open;
+                font-weight:bold;
+                margin-bottom:10px;
+                cursor:pointer;
+                color:#2b2b2f;
+                padding:5px;
+                &:hover {
+                    background:#2b2b2f;
+                    color:white;
+                }
+            }
+            .active {
+                background:#2b2b2f;
+                color:white;
+            }
+        }
+        select {
+            padding:10px;
+            font-family:$open;
+            display:none;
+            margin-bottom:40px;
+            option {
+                font-family:$open;
+            }
+        }
+    }
+
+}
+
+@media (max-width:1200px) {
+    .home-wrapper {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .left-menu {
+            ul {
+                display:none;
+            }
+            select {
+                display:block;
+                font-size:16px;
+            }
+        }
+    }
+
+}
+

@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "product_id": 0,
+            "product_category": "Footwear",
+            "product_title": "Title with Two Very Very Long Long Lines",
+            "product_image": "/image1.jpg",
+            "product_description": "And a very long desciption to boot.  Why bother descibing something with so many words?",
+            "product_link": "http://www.webguyny.us"
+        },
+        {
+            "product_id": 1,
+            "product_category": "Water Fountains",
+            "product_title": "One Short Title",
+            "product_image": "/image2.jpg",
+            "product_description": "And a very long desciption to boot.  Why bother descibing something with so many words?",
+            "product_link": "http://www.webguyny.us"
+        },
+        {
+            "product_id": 2,
+            "product_category": "Garage Door Openers",
+            "product_title": "One Short Title",
+            "product_image": "/image1.jpg",
+            "product_description": "With a short description",
+            "product_link": "http://www.webguyny.us"
+        },
+        {
+            "product_id": 3,
+            "product_category": "Smart Home Tech",
+            "product_title": "Title with Two Very Very Long Long Lines",
+            "product_image": "/image3.jpg",
+            "product_description": "With a short description",
+            "product_link": "http://www.webguyny.us"
+        },
+        {
+            "product_id": 4,
+            "product_category": "Beverages",
+            "product_title": "Title with Two Very Very Long Long Lines",
+            "product_image": "/image1.jpg",
+            "product_description": "And a very long desciption to boot.  Why bother descibing something with so many words?",
+            "product_link": "http://www.webguyny.us"
+        },
+        {
+            "product_id": 5,
+            "product_category": "Education",
+            "product_title": "Title with Two Very Very Long Long Lines",
+            "product_image": "/image2.jpg",
+            "product_description": "And a very long desciption to boot.  Why bother descibing something with so many words?",
+            "product_link": "http://www.webguyny.us"
+        }
+    ]
+}
